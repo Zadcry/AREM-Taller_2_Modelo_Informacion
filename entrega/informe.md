@@ -4,7 +4,7 @@
 _Taller X - [Nombre completo del taller]_
 
 ## 👥 Integrantes del equipo
-- Julián Mauricio Zafra¿
+- Julián Mauricio Zafra
 - Santiago Araque
 - Juan José Forero
 
