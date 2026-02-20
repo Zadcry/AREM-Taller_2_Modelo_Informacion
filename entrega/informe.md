@@ -4,9 +4,9 @@
 _Taller X - [Nombre completo del taller]_
 
 ## 👥 Integrantes del equipo
-- Nombre 1 (correo o usuario GitHub)
-- Nombre 2
-- Nombre 3
+- Julián Mauricio Zafra¿
+- Santiago Araque
+- Juan José Forero
 
 ## 🧠 Descripción general del trabajo
 Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
