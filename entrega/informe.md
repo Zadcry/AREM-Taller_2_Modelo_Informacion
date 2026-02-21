@@ -9,10 +9,18 @@ _Taller X - [Nombre completo del taller]_
 - Juan José Forero
 
 ## 🧠 Descripción general del trabajo
-Describa brevemente el objetivo del taller y cómo se desarrolló la actividad.
+En el presente trabajo se llevo acabo un proceso de analisis y modelado de las actividades del dia a dia de THEGEEKHUB, un emprendimiento dedicado a la comercializacion minorista de articulos coleccionables de series y videojuegos, quienes manejan su negocio a traves de las redes sociales y tienen dificultades para alcanzar las ventas esperadas y organizar sus procesos. A partir del dialogo con uno de los dueños del negocio se extrajeron las ideas y procesos clave del negocio para llegar a un modelado limpio y estructurado que garantice la consistencia en los datos de ventas, asi como registros adecuados de los datos de clientes e información financiera de las ventas.
 
 ## 🔧 Proceso de desarrollo
 Explique cómo realizaron el trabajo: qué decisiones tomaron, qué herramientas utilizaron, qué aspectos modelaron primero y cómo lo fueron ajustando.
+
+Nuestro proceso de desarrollo se realizo en 3 fases principales: Indagación, estructuración de los procesos actuales y finalmente el modelado. A continuación se describe cada una de las etapas.
+
+Indagación: Se tuvo una reunión con uno de los dueños del negocio para realizar un perfilamiento/caracterización del mismo, ayudandonos a determinar que es lo que le duele de su negocio y que objetivos tiene a corto y largo plazo para el mismo. El objetivo de esto es realizar un sondeo de que aspectos pueden tener una mejoria inmediata, bien sea en procesos facilmente optimizable o incluso en la organización de sus actividades.
+
+Estructuración de los procesos actuales: Se tomo en cuenta los flujos de procesos del negocio para encontrar aspectos clave que pueden brindar una mejoria al proceso que llevan a cabo, para ello se hizo uso de un diagrama de contexto que exponia a nivel general como opera THEGEEKHUB. Gracias a ello logramos determinar que la organización de los datos de ventas se lleva a cabo por medio de hojas de excel que almacenan la información de cada año de ventas y compras desde finales de 2023. Sin embargo no se documenta adecuadamente al excluir datos fundamentales para posible atención al cliente, por ejemplo las fechas de ventas o otorgarle de forma estandar un SKU a cada referencia de los productos. El siguiente paso era llegar a una conclución de como podiamos mejorar este procesos, la respuesta fue clara de inmediato para algunos de los aspectos, mientras que otros requirieron de una mayor indagación y supuestos sobre el futuro de THEGEEKHUB.
+
+Modelado: En esta etapa hicimos el modelado entidad - relación del negocio teniendo en cuenta las mejorias que se le sugeririan a THEGEEKHUB y el supuesto de que es un negocio que al ser 100% virtual eventualmente buscara expandirse a un sistema mas profesional y seguro para guardar su informacion y la de sus clientes. Para ello modelaron 6 entidades: Transacción, Referencia, Ventas, cambioFuente, Comprador y Fuente. Comprador pasó sin muchos cambios de como se maneja actualmente esta información, mas allá de haber pasado por una organización estructurada en lugar de información que solo almacenan hasta el momento de la entrega del producto. Referencia y ventas por otro lado fueron reestructuradas casi en su totalidad para que toda la información de valor de estos 2 aspectos sea mas facilmente migrable a la futura expansión de THEGEEKHUB en el E-commerce así como a la posibilidad de tener un local fisico.
 
 ## 🧩 Análisis del modelo propuesto
 Incluya un análisis sobre:
