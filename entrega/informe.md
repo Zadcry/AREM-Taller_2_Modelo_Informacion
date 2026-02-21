@@ -28,6 +28,20 @@ Incluya un análisis sobre:
 - Cómo representa las necesidades del cliente
 - Qué supuestos se tomaron
 
+El modelo entidad–relación propuesto para THEGEEKHUB se estructura mediante las 6 entidades previamente mencionadas. La estructura separa claramente tres dimensiones fundamentales del negocio:
+Dimensión comercial: Ventas y referencia, dimensión del cliente: comprador y la dimensión financiera: transacción, fuente y cambioFuente. La entidad Ventas funciona como núcleo del modelo, ya que conecta el producto vendido (Referencia), el cliente (Comprador) y la plataforma financiera utilizada (Fuente). Por otro lado, la entidad Transacción permite registrar los movimientos de dinero asociados a cada venta, mientras que CambioFuente modela las transferencias internas entre plataformas financieras (por ejemplo, de MercadoPago a Nequi o cuenta bancaria). La separación de estas entidades evita redundancia de información y facilita la trazabilidad tanto comercial como financiera.
+
+El modelo responde directamente a los problemas identificados durante la fase de indagación: ID único, fecha (en Transacción), SKU de referencia, comprador asociado y fuente de pago como respuesta a la falta de organización en las ventas. Una separacion de las ventas en: Venta (acto comercial), Transacción (movimiento de dinero) y CambioFuente (transferencias internas) para generar un control finanaciero mas claro y finalmente: Uso de SKU y una separación estricta de entidades para permitir una migración sencilla hacia sistemas como un posible ERP o simplemente una base de datos sencilla.
+
+Como supuesto para este modelado se tomó:
+- Cada venta corresponde a una única referencia (no se modeló carrito de múltiples productos).
+- Cada venta utiliza una fuente principal de pago.
+- Una venta puede generar múltiples transacciones (ej: pago, devolución).
+- Las transferencias entre plataformas financieras deben registrarse independientemente de la venta.
+- THEGEEKHUB crecerá y requerirá un sistema formal de base de datos relacional.
+- Los datos del comprador deben conservarse incluso después de la venta para análisis futuro y fidelización.
+
+
 ## 📈 Diagrama final entregado
 <img width="641" height="651" alt="modelo-final-er drawio" src="https://github.com/user-attachments/assets/4cf831e8-b89c-4f78-926e-b92f8d9c7d81" />
 
