@@ -29,13 +29,18 @@ Incluya un análisis sobre:
 - Qué supuestos se tomaron
 
 ## 📈 Diagrama final entregado
-> (Inserte aquí una imagen o enlace al modelo-final.drawio / .asta / PDF)
+<img width="641" height="651" alt="modelo-final-er drawio" src="https://github.com/user-attachments/assets/4cf831e8-b89c-4f78-926e-b92f8d9c7d81" />
 
 ## 📋 Tabla de actores, entidades o componentes (si aplica)
 
-| Nombre del elemento | Tipo | Descripción | Responsable |
-|---------------------|------|-------------|-------------|
-| Ej: Paciente        | Actor | Usuario que agenda una cita médica | Cliente |
+| Nombre del elemento | Tipo | Descripción |
+|---------------------|------|-------------|
+| Ventas              | Entidad | Venta de una referencia a un comprador       |
+| Comprador           | Entidad | Usuario que compra una referencia            |
+| Referencia          | Entidad | Identificador de un articulo específico      |
+| Transaccion         | Entidad | Accion que involucra el movimiento de dinero | 
+| CambioFuente        | Entidad | Movimiento de dinero entre fuentes           |
+| Fuente              | Entidad | Plataforma de servicio financiero            | 
 
 ## 🔍 Investigación complementaria
 ### Tema investigado:
