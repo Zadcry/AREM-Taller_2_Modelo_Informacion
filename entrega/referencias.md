@@ -3,24 +3,15 @@
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
 ## 🔖 Taller
-_Taller X - [Nombre del Taller]_
+_Taller 2 - Modelo de Información y Diagrama de Contexto_
 
 ---
 
 ## 📚 Referencias utilizadas
 
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
-
----
-
-## 📌 Recomendaciones
-
-- Usa formato APA o IEEE para citar.
-- No incluyas fuentes como Wikipedia si hay mejores alternativas.
-- Si usas inteligencia artificial para redactar o investigar, cítalo como "Fuente asistida por IA: ChatGPT, julio 2025".
+- [1] R. Elmasri y S. Navathe, Fundamentals of Database Systems, 7th ed. Pearson, 2016.
+- [2] The Open Group, TOGAF® Standard, Version 9.2, 2018. [En línea]. Disponible en: https://www.opengroup.org/togaf
+- [3] S. Brown, The C4 Model for Visualising Software Architecture. [En línea]. Disponible en: https://c4model.com
 
 ---
 
